@@ -19,7 +19,7 @@ Once the postgres database is started and the dependencies installed, you can st
 
 Start the application
 ```
-bun run src/index.ts
+bun run dev
 ```
 
 Get all the movies
