@@ -8,8 +8,14 @@ Install postgres locally or run it through docker with :
 docker run -p 5432:5432 -e POSTGRES_DB=my_database -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres postgres
 ```
 
+### Dependencies
+Install the project dependencies
+```
+bun i
+```
+
 ### Application
-Once the postgres database is started, you can start the Bun project and try it out.
+Once the postgres database is started and the dependencies installed, you can start the Bun project and try it out.
 
 Start the application
 ```
